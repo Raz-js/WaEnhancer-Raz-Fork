@@ -144,7 +144,7 @@ android {
 dependencies {
     implementation(libs.colorpicker)
     implementation(libs.dexkit)
-    compileOnly(libs.libxposed.legacy)
+    // removed Xposed compile-only dependency for app template
 
     implementation(libs.androidx.activity)
     implementation(libs.androidx.documentfile)
@@ -164,6 +164,12 @@ dependencies {
     implementation(libs.betterypermissionhelper)
     implementation(libs.bcpkix.jdk18on)
     implementation(libs.arscblamer)
+    // Google Sign-In and networking for Gmail API
+    implementation("com.google.android.gms:play-services-auth:20.5.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+
     compileOnly(libs.lombok)
     annotationProcessor(libs.lombok)
 }

@@ -1,14 +1,14 @@
 | [English](README.md) | **Português(Brasil)**
 
-# WaEnhancer
+# App Template
 
-<div align="center">
-  <p><strong>WaEnhancer é um módulo Xposed que melhora sua experiência no WhatsApp.</strong></p>
-  <p><strong>Aviso:</strong> Este módulo é destinado apenas para fins educacionais. Você pode ter problemas com sua conta do WhatsApp, incluindo risco de banimento! Use por sua conta e risco.</p>
-  <p>Observe que este projeto está atualmente em desenvolvimento, então bugs e falhas podem ocorrer. Se encontrar algum problema, reporte em nosso grupo ou crie um <a href="https://github.com/Dev4Mod/WaEnhancer/issues">relatório de problema</a> aqui.</p>
-</div>
+Este repositório é um modelo genérico de aplicativo Android. Ele contém uma estrutura inicial com exemplos de recursos, temas e configuração do Gradle para começar um novo projeto.
 
-## Principais Funcionalidades
+## Objetivo
+
+Fornecer uma base limpa e neutra que você possa adaptar facilmente: atualizar o nome do app, adicionar/remover dependências, definir flavors e customizar recursos.
+
+## O que está incluído
 <details closed>
   <summary>Privacidade</summary>
 
@@ -135,25 +135,17 @@
 - `Marcação em Mensagens Copiadas`
 </details>
 
-## Instalação
-1. Certifique-se de que seu dispositivo está com root.
-2. Instale o Xposed Framework (recomendamos [este](https://github.com/JingMatrix/LSPosed) LSPosed) no seu dispositivo.
-3. Baixe o WaEnhancer na aba [Actions](https://github.com/Dev4Mod/WaEnhancer/actions).
-4. Instale o APK do WaEnhancer.
-5. Ative o módulo WaEnhancer no aplicativo Xposed Installer(LSPosed).
+## Como usar este template
 
-## Suporte
-Se você encontrar algum problema ou tiver dúvidas sobre o WaEnhancer, por favor [Visite o Telegram](https://t.me/waenhancer).
+1. Atualize `rootProject.name` em `settings.gradle.kts` com o nome do seu projeto.
+2. Atualize `app/src/main/res/values/strings.xml` para definir o `app_name`.
+3. Revise `app/build.gradle.kts` para adicionar dependências necessárias.
+4. Remova arquivos de exemplo que não sejam relevantes e comece a desenvolver a sua lógica.
 
 ## Licença
-Este projeto está licenciado sob a Licença GNU - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Agradecimentos
-
-* Spoofer de Bootloader (Agradecimentos a [chiteroman](https://github.com/chiteroman))
-* Patch Core do Framework LSPosed (agradecimentos à equipe [LSPosed](https://github.com/LSPosed))
-* Cliente e Servidor Bridge (Agradecimentos a [rhunk](https://github.com/rhunk/))
+Revise o arquivo `LICENSE` na raiz do repositório para detalhes sobre a licença atual.
 
 ---
 
-**Nota**: Por favor, use o WaEnhancer de forma responsável e em conformidade com os termos e condições dos aplicativos que você está modificando. O uso indevido desta ferramenta pode levar a consequências legais.
+Este arquivo substitui o conteúdo antigo específico de projeto; personalize-o conforme necessário.

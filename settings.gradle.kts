@@ -16,10 +16,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven("https://api.xposed.info/")
         maven("https://jitpack.io")
     }
 }
 
-rootProject.name = "Wa Enhancer"
+rootProject.name = "App Template"
 include(":app")
