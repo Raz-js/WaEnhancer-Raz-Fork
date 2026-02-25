@@ -67,3 +67,5 @@
     <string name="about">关于</string>
     <string name="version_s">版本 %s</string>
     <string name="show_dnd_button_sum">在主页工具栏上显示免打扰按钮</string>
+
+</resources>
