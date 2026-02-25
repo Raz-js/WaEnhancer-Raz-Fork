@@ -112,10 +112,10 @@ android {
     }
 
     // Exclude Xposed-specific sources from the app build (these require Xposed APIs).
-    // Use a typed call to SourceDirectorySet.exclude so Kotlin DSL resolves correctly.
+    // Use the Android plugin sourceSets API to exclude the xposed package files.
     sourceSets {
         getByName("main") {
-            (java as org.gradle.api.file.SourceDirectorySet).exclude("com/wmods/wppenhacer/xposed/**")
+            java.exclude("com/wmods/wppenhacer/xposed/**")
         }
     }
 
