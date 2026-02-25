@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_desc">WhatsApp 增强模块</string>
+    <string name="app_desc">通用应用模板</string>
     <string name="antirevoke">防止消息撤回</string>
     <string name="antirevoke_sum">消息将不会在您的设备上删除</string>
     <string name="ghostmode">隐藏正在输入</string>
@@ -15,7 +15,7 @@
     <string name="hideread_sum">在其他用户不知情的情况下查看消息</string>
     <string name="perso">个性化</string>
     <string name="segundosnahora">显示时间秒数</string>
-    <string name="segundosnahora_sum">在WhatsApp应用中任何时间戳旁显示秒数</string>
+    <string name="segundosnahora_sum">在应用中任何时间戳旁显示秒数</string>
     <string name="textonahora">时间戳旁的文本</string>
     <string name="viewonce">无限次查看阅后即删</string>
     <string name="viewonce_sum">允许您无限次查看阅后即删的媒体</string>
@@ -29,9 +29,9 @@
     <string name="videoquality">高清品质视频</string>
     <string name="videoquality_sum">默认以高清品质发送视频</string>
     <string name="colors_customization">自定义您的颜色</string>
-    <string name="colors_customization_sum">更改 WhatsApp 中的所有颜色（仅适用于深色主题）</string>
+    <string name="colors_customization_sum">更改应用中的所有颜色（仅适用于深色主题）</string>
     <string name="general">一般</string>
-    <string name="restart_whatsapp">重启 WhatsApp</string>
+    <string name="restart_app">重启 应用</string>
     <string name="conversation">聊天界面</string>
     <string name="primary_color">主要颜色</string>
     <string name="background_color">背景颜色</string>
@@ -46,7 +46,7 @@
     <string name="removeforwardlimit_sum">移除5个聊天（正常）和1个聊天（多次）的转发限制\n（警告：请谨慎使用，您可能会因发送垃圾信息而被封禁）</string>
     <string name="removeforwardlimit">移除转发限制</string>
     <string name="showname">显示名称</string>
-    <string name="showname_sum">在主页顶部显示你的个人资料名称，而不是“WhatsApp”。</string>
+    <string name="showname_sum">在主页顶部显示你的个人资料名称。</string>
     <string name="showbio_sum">在工具栏标题下显示你的个人简介</string>
     <string name="showbio">显示个人简介</string>
     <string name="bubble_left">左边的消息气泡</string>
