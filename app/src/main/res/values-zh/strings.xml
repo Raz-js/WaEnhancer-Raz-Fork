@@ -53,20 +53,17 @@
     <string name="bubble_right">右边的消息气泡</string>
     <string name="loading">加载中</string>
     <string name="imagequality">高清品质图片</string>
-    <?xml version="1.0" encoding="utf-8"?>
-    <resources>
-        <string name="app_name">App Template</string>
-        <string name="app_desc">通用应用模板</string>
-        <string name="installation_desc">请根据本仓库说明构建并安装应用。</string>
-        <string name="support_desc">如需支持，请在仓库中创建 Issue 或参阅文档。</string>
-        <string name="license_desc">请参阅根目录的 LICENSE 以获取许可信息。</string>
-        <string name="enable_restart_button_sum">在主页添加按钮用于重启应用程序（如适用）。</string>
-        <string name="enable_new_chat_button_sum">在主页添加按钮用于打开新的聊天（示例）。</string>
-        <string name="default_ok">确定</string>
-        <string name="default_cancel">取消</string>
-        <string name="download">下载</string>
-        <string name="settings">设置</string>
-        <string name="about">关于</string>
-        <string name="version_s">版本 %s</string>
-    </resources>
+    <string name="app_name">App Template</string>
+    <string name="app_desc">通用应用模板</string>
+    <string name="installation_desc">请根据本仓库说明构建并安装应用。</string>
+    <string name="support_desc">如需支持，请在仓库中创建 Issue 或参阅文档。</string>
+    <string name="license_desc">请参阅根目录的 LICENSE 以获取许可信息。</string>
+    <string name="enable_restart_button_sum">在主页添加按钮用于重启应用程序（如适用）。</string>
+    <string name="enable_new_chat_button_sum">在主页添加按钮用于打开新的聊天（示例）。</string>
+    <string name="default_ok">确定</string>
+    <string name="default_cancel">取消</string>
+    <string name="download">下载</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="version_s">版本 %s</string>
     <string name="show_dnd_button_sum">在主页工具栏上显示免打扰按钮</string>
