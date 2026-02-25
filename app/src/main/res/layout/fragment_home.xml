@@ -118,7 +118,7 @@
                             android:layout_marginEnd="@dimen/spacing_large"
                             android:layout_toStartOf="@+id/reboot_btn"
                             android:layout_toEndOf="@id/status_icon2"
-                            android:text="@string/whatsapp_in_background" />
+                            android:text="@string/app_in_background" />
 
                         <com.google.android.material.textview.MaterialTextView
                             android:id="@+id/status_summary1"

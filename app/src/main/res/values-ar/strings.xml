@@ -31,7 +31,7 @@
     <string name="colors_customization">خصص ألوانك</string>
     <string name="colors_customization_sum">تغيير كل الألوان في واتساب الخاص بك (يعمل فقط في السمة الداكنة)</string>
     <string name="general">عام</string>
-    <string name="restart_whatsapp">إعادة تشغيل واتساب</string>
+    <string name="restart_app">إعادة تشغيل واتساب</string>
     <string name="conversation">شاشة المحادثة</string>
     <string name="primary_color">اللون الأساسي</string>
     <string name="background_color">لون الخلفية </string>
@@ -61,7 +61,7 @@
     <string name="blueonreply">أرسل علامة زرقاء عند الرد</string>
     <string name="blueonreply_sum">إرسال علامات الصح الزرقاء بعد الرد على رسالة(ملاحظة: يجب أن يكون خِيار \"إخفاء العلامات الزرقاء\" نشطًا)</string>
     <string name="hide_archived_chat">إخفاء المحادثة المؤرشفة</string>
-    <string name="hide_archived_chat_sum">إخفاء الدردشات المؤرشفة، للوصول إليها انقر 5 مرات أو اضغط مع الاستمرار على عنوان \"WhatsApp\" في رأس الشاشة الرئيسية</string>
+    <string name="hide_archived_chat_sum">إخفاء الدردشات المؤرشفة، للوصول إليها انقر 5 مرات أو اضغط مع الاستمرار على عنوان \"App\" في رأس الشاشة الرئيسية</string>
     <string name="hide_once_view_seen">إخفاء العرض بمجرد رؤيته</string>
     <string name="hide_once_view_seen_sum">إخفاء هذا العرض تمت رؤية إحدى الوسائط</string>
     <string name="call_blocker">حظر المكالمات</string>
@@ -93,7 +93,7 @@
     <string name="number_with_country_code">رَقْم مع رمز البلد</string>
     <string name="message">رسالة</string>
     <string name="download">تحميل</string>
-    <string name="reboot_whatsapp">(إعادة تشغيل واتساب)</string>
+    <string name="reboot_app">(إعادة تشغيل واتساب)</string>
     <string name="error_when_saving_try_again">حدث خطأ أثناء الحفظ، حاول مرة أخرى</string>
     <string name="saved_to">"تم الحفظ في "</string>
     <string name="hide_tabs_on_home">إخفاء علامات التبويب على الصفحة الرئيسة</string>
@@ -117,11 +117,11 @@
     <string name="module_enabled">تم تمكين الوحدة✔️</string>
     <string name="version_s">الإصدار %s</string>
     <string name="module_disabled">الوحدة معطلة🚫</string>
-    <string name="whatsapp_in_background">واتساب في الخلفية</string>
-    <string name="whatsapp_is_not_running_or_has_not_been_activated_in_lsposed">لا يعمل Whatsapp أو لم يتم تفعيله في Lsposed</string>
-    <string name="business_is_not_running_or_has_not_been_activated_in_lsposed">واتساب أعمال لا يعمل أو لم يتم تفعيل أداة Lsposed </string>
-    <string name="restart_wpp">من الضروري إعادة تشغيل WhatsApp لتفعيل التغييرات في Wa Encer. هل تريد إعادة التشغيل؟</string>
-    <string name="version_s_not_listed">الإصدار %s غير مدرج في الإصدارات المدعومة!\nالرجاء استخدام إصدار WhatsApp المدعوم!</string>
+    <string name="app_in_background">واتساب في الخلفية</string>
+    <string name="app_is_not_running_or_has_not_been_activated_in_framework">لا يعمل App أو لم يتم تفعيله في framework</string>
+    <string name="business_is_not_running_or_has_not_been_activated_in_framework">واتساب أعمال لا يعمل أو لم يتم تفعيل أداة framework </string>
+    <string name="restart_wpp">من الضروري إعادة تشغيل App لتفعيل التغييرات في Wa Encer. هل تريد إعادة التشغيل؟</string>
+    <string name="version_s_not_listed">الإصدار %s غير مدرج في الإصدارات المدعومة!\nالرجاء استخدام إصدار App المدعوم!</string>
     <string name="media">الوسائط</string>
     <string name="show_button_to_send_blue_tick">إظهار أيقونة لإرسال علامة زرقاء✔️✔️</string>
     <string name="show_button_to_send_blue_tick_sum">إظهار أيقونة لإرسال علامة زرقاء (ضع علامة كمقروء/مشاهدة)</string>
@@ -155,7 +155,7 @@
     <string name="seentick_screen">إظهار الأزرار في الشاشة</string>
     <string name="verbose_logs">تمكين السجلات المطوّلة لمصحح الأخطاء</string>
     <string name="phone_call">مكالمة هاتفية</string>
-    <string name="whatsapp_call">مكالمة واتساب</string>
+    <string name="app_call">مكالمة واتساب</string>
     <string name="home_screen">الشاشة الرئيسية</string>
     <string name="selection_of_call_type">تمكين اختيار نوع المكالمة</string>
     <string name="selection_of_call_type_sum">إظهار خيار لتحديد ما إذا كنت تريد مكالمة عبر الهاتف أو واتساب</string>
@@ -224,7 +224,7 @@
     <string name="message_removed_on">تمت إزالة هذه الرسالة على %s.</string>
     <string name="disable_default_emojis">تعطيل الرموز التعبيرية الافتراضية</string>
     <string name="theme_mode">سمة داكنة</string>
-    <string name="theme_mode_sum">تحديد سمة Wa Enhancer</string>
+    <string name="theme_mode_sum">تحديد سمة App Template</string>
     <string name="disable_default_emojis_sum">تعطيل الرموز التعبيرية الافتراضية لواتساب واستخدام الرموز التعبيرية للنظام \n(ملاحظة: ستختفي الرموز التعبيرية لواتساب من المحدد، استخدم لوحة المفاتيح لإدراجها).</string>
     <string name="other">غير ذلك</string>
     <string name="enable_media_preview">تمكين معاينة الوسائط</string>
@@ -274,20 +274,20 @@
     <string name="viewed_your_message">%s شاهد رسالتك</string>
     <string name="old_statuses">الحالات القديمة</string>
     <string name="old_statuses_sum">التغيير إلى صفحة الحالات القديمة عموديًا وبدون قنوات (ملاحظة: قد يتسبب ذلك في حدوث بطء في الواجهة)</string>
-    <string name="force_english">فرض اللغة الانجليزية Wa Enhancer</string>
+    <string name="force_english">فرض اللغة الانجليزية App Template</string>
     <string name="select_status_type">تحديد نوع الحالة</string>
     <string name="open_camera">فتح الكاميرا</string>
     <string name="edit_text">تحرير النص</string>
     <string name="about_info">( المُحسِّن) هو وحدة إكسبوزيد التي تعمل على تحسين تجربة واتساب من خلال تقديم ميزات خصوصية متقدمة، وتخصيص الشاشة الرئيسية، وتعديلات عامة، وتحسينات على الوسائط.</string>
     <string name="installation">تثبيت</string>
-    <string name="installation_desc">1. تأكد من أن جهازك متجذر.\n2. قم بتثبيت إطار عمل Xposed Framework على جهازك.\n3. قم بتنزيل Wa Enhancer من قسم الإجراءات.\n4. قم بتثبيت ملف Wa Enhancer APK.\n5. قم بتمكين وحدة Wa Enhancer في تطبيق Xposed Installe.</string>
+    <string name="installation_desc">1. تأكد من أن جهازك متجذر.\n2. قم بتثبيت إطار عمل framework Framework على جهازك.\n3. قم بتنزيل App Template من قسم الإجراءات.\n4. قم بتثبيت ملف App Template APK.\n5. قم بتمكين وحدة App Template في تطبيق framework Installe.</string>
     <string name="go_to_telegram">الذهاب إلى تيليجرام</string>
     <string name="go_to_github">الذهاب إلى GitHub</string>
     <string name="donate">تبرّع</string>
     <string name="support">الدعم</string>
-    <string name="support_desc">إذا واجهت أي مشكلات أو لديك أسئلة حول Wa Enhancer، يرجى زيارة Telegram.</string>
+    <string name="support_desc">إذا واجهت أي مشكلات أو لديك أسئلة حول App Template، يرجى زيارة Telegram.</string>
     <string name="license">التَرْخِيصْ</string>
-    <string name="license_desc">هذا المشروع مرخص بموجب رخصة GNU - راجع ملف LICENSE للحصول على التفاصيل.\n\nملحوظة: يرجى استخدام Wa Enhancer بطريقة مسؤولة ووفقا لأحكام وشروط التطبيقات التي تقوم بتعديلها. وقد تؤدي إساءة استخدام هذه الأداة إلى عواقب قانونية.</string>
+    <string name="license_desc">هذا المشروع مرخص بموجب رخصة GNU - راجع ملف LICENSE للحصول على التفاصيل.\n\nملحوظة: يرجى استخدام App Template بطريقة مسؤولة ووفقا لأحكام وشروط التطبيقات التي تقوم بتعديلها. وقد تؤدي إساءة استخدام هذه الأداة إلى عواقب قانونية.</string>
     <string name="select_a_color">اختر اللون</string>
     <string name="custom_appearance">المظهر المخصص</string>
     <string name="custom_filters_sum">تفعيل الفلاتر حسب المعرف و CSS المخصص</string>
@@ -307,7 +307,7 @@
     <string name="new_theme_name">اسم السمة الجديدة</string>
     <string name="create">إنشاء</string>
     <string name="storage_permission">إذن التخزين</string>
-    <string name="permission_storage">السماح لـ Wa Enhancer بالوصول إلى وحدة التخزين الخارجية الخاصة بك؟</string>
+    <string name="permission_storage">السماح لـ App Template بالوصول إلى وحدة التخزين الخارجية الخاصة بك؟</string>
     <string name="allow">سماح</string>
     <string name="deny">رفض</string>
     <string name="saved">تم الحفظ</string>
@@ -333,8 +333,8 @@
     <string name="list_animations_home_screen_sum">إضافة رسوم متحركة عند تمرير قائمة الدردشة</string>
     <string name="stamp_copied_messages">إزالة الاسم والتاريخ من الرسائل المنسوخة</string>
     <string name="stamp_copied_messages_sum">إزالة الاسم والتاريخ عند نسخ أكثر من رسالة واحدة</string>
-    <string name="invalid_folder">تم تحديد مجلد غير صالح. الرجاء اختيار مجلد WaEnhancer</string>
-    <string name="uri_permission">لاستخدام القوالب المخصصة تحتاج إلى تحديد مجلد \"WaEnhancer\" في \"تنزيل\"</string>
+    <string name="invalid_folder">تم تحديد مجلد غير صالح. الرجاء اختيار مجلد App Template</string>
+    <string name="uri_permission">لاستخدام القوالب المخصصة تحتاج إلى تحديد مجلد \"App Template\" في \"تنزيل\"</string>
     <string name="double_click_to_react">تمكين النقر المزدوج للتفاعل</string>
     <string name="double_click_to_like_sum">تنشيط إمكانية النقر المزدوج على الرسالة للتفاعل معها</string>
     <string name="custom_reaction">رد فعل مخصص</string>
@@ -348,7 +348,7 @@
     <string name="ghost_mode_s">وضع الشبح [%s]</string>
     <string name="ghost_mode_title">إظهار أيقونة وضع الشبح</string>
     <string name="ghost_mode_sum">إظهار أيقونة وضع الشبح على شريط أدوات الشاشة الرئيسية</string>
-    <string name="grant_permissions">لاستخدام Wa Enhancer، من الضروري منح بعض الأذونات لاستخدام الوظائف.</string>
+    <string name="grant_permissions">لاستخدام App Template، من الضروري منح بعض الأذونات لاستخدام الوظائف.</string>
     <string name="grant_manage_storage">منح إدارة التخزين</string>
     <string name="grant_media_read">منح قراءة الوسائط</string>
     <string name="grant_reading_of_contacts">منح قراءة جهات الاتصال</string>
@@ -356,7 +356,7 @@
     <string name="show_menu_buttons_as_icons">إظهار أزرار القائمة كأيقونات</string>
     <string name="show_menu_buttons_as_icons_sum">إظهار أزرار القائمة على الشاشة الرئيسية كأيقونات لتسهيل الوصول إليها</string>
     <string name="starting_cache">بدء ربط ذاكرة التخزين المؤقت في واتساب. قد يستغرق ذلك بعض الوقت.</string>
-    <string name="bridge_error">فشل الربط: تمكين إطار النظام في Lsposed وإعادة تشغيل الجهاز</string>
+    <string name="bridge_error">فشل الربط: تمكين إطار النظام في framework وإعادة تشغيل الجهاز</string>
     <string name="disable_battery_optimization">تعطيل تحسين البطارية</string>
     <string name="bootloader_spoofer">مخادع محمل الإقلاع(بوت لودر)</string>
     <string name="bootloader_spoofer_sum">استخدم هذا إذا تم حظرك وتلقيت رسالة واتساب غير رسمي</string>
@@ -373,7 +373,7 @@
     <string name="transcription_provider">مزود خدمات النسخ</string>
     <string name="transcription_provider_sum">اختر خدمة الذكاء الاصطناعي للنسخ الصوتي</string>
     <string name="assemblyai">تمكين(AssemblyAI)</string>
-    <string name="assemblyai_sum">استبدال النسخ الافتراضي لـ WhatsApp بـ AssemblyAI</string>
+    <string name="assemblyai_sum">استبدال النسخ الافتراضي لـ App بـ AssemblyAI</string>
     <string name="assemblyai_key">مفتاح واجهة برمجة تطبيقات AssemblyAI</string>
     <string name="assemblyai_key_sum">مفتاح الوصول إلى واجهة برمجة تطبيقات AssemblyAI (احصل عليه من assemblyai.com)</string>
     <string name="groq_api_key">مفتاح واجهة برمجة تطبيقات Groq</string>
@@ -398,7 +398,7 @@
     <string name="ask_download_folder">لاستخدام وظائف التنزيل الخاصة بـ WAE Enhancer، يجب عليك تحديد مجلد لحفظ الملفات التي تم تنزيلها.</string>
     <string name="download_folder_permission">إذن تحميل المجلد</string>
     <string name="lite_mode">الوضع الخفيف</string>
-    <string name="lite_mode_sum">يعطل الوضع الخفيف معظم ميزات الثيمات ويتم إيقاف تشغيل جسر الاتصال الذي يحافظ على WhatsApp نشطًا دائمًا.</string>
+    <string name="lite_mode_sum">يعطل الوضع الخفيف معظم ميزات الثيمات ويتم إيقاف تشغيل جسر الاتصال الذي يحافظ على App نشطًا دائمًا.</string>
     <string name="update_check">التحقق من التحديثات تلقائيًا</string>
     <string name="update_check_sum">تمكين أو تعطيل التحقق التلقائي من التحديث. سيؤدي هذا إلى تعطيل النوافذ المنبثقة داخل تطبيق واتساب.</string>
     <string name="change_default_dpi">تغيير DPI الافتراضي</string>
@@ -423,10 +423,10 @@
     <string name="show_contact_blocked">إظهار جهة الاتصال المحظورة في المحادثة</string>
     <string name="show_contact_blocked_sum">يتحقق هذا الخِيار مما إذا كان جهة الاتصال قد حظرتك (ملاحظة: قد تحدث نتائج إيجابية خاطئة).</string>
     <string name="block_unverified">حظر غير مُتحقق منه</string>
-    <string name="disable_whatsapp_expiration">تعطيل انتهاء صلاحية واتساب</string>
-    <string name="disable_whatsapp_expiration_sum">يعطل الإصدار المنتهي الصَّلاحِيَة من WhatsApp (ملاحظة: التعطيل يدويًا لتحديث WhatsApp على متجر Play Store أو ضع علامة على متجر Play Store على LSposed)</string>
+    <string name="disable_app_expiration">تعطيل انتهاء صلاحية واتساب</string>
+    <string name="disable_app_expiration_sum">يعطل الإصدار المنتهي الصَّلاحِيَة من App (ملاحظة: التعطيل يدويًا لتحديث App على متجر Play Store أو ضع علامة على متجر Play Store على framework)</string>
     <string name="disable_ads">تعطيل الإعلانات</string>
-    <string name="disable_ads_sum">منع الإعلانات من الظهور في WhatsApp</string>
+    <string name="disable_ads_sum">منع الإعلانات من الظهور في App</string>
     <string name="lockedchats_enhancer">محادثات مقفلة محسّنة</string>
     <string name="lockedchats_enhancer_sum">حسّن المحادثات المقفلة عن طريق إخفاء الإشعارات وجهات الاتصال من قائمة جهات الاتصال</string>
 </resources>

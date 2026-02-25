@@ -37,8 +37,8 @@
         <rikka.material.preference.MaterialSwitchPreference
             app:defaultValue="false"
             app:key="disable_expiration"
-            app:summary="@string/disable_whatsapp_expiration_sum"
-            app:title="@string/disable_whatsapp_expiration" />
+            app:summary="@string/disable_app_expiration_sum"
+            app:title="@string/disable_app_expiration" />
 
         <rikka.material.preference.MaterialSwitchPreference
             app:defaultValue="false"
@@ -76,7 +76,7 @@
             android:title="Enable Custom KeyBox"
             app:key="bootloader_spoofer_custom" />
 
-        <com.wmods.wppenhacer.preference.FileReaderPreference
+        <com.example.apptemplate.preference.FileReaderPreference
             android:key="bootloader_spoofer_xml"
             android:dependency="bootloader_spoofer_custom"
             android:title="Use Custom keybox.xml file"

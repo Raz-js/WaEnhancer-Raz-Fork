@@ -17,7 +17,7 @@
     <color name="gradient_start_primary">#26A69A</color>
     <color name="gradient_end_primary">#00796B</color>
 
-    <color name="whatsapp_green">#25D366</color>
-    <color name="whatsapp_dark_green">#128C7E</color>
-    <color name="whatsapp_teal">#075E54</color>
+    <color name="app_green">#25D366</color>
+    <color name="app_dark_green">#128C7E</color>
+    <color name="app_teal">#075E54</color>
 </resources>
