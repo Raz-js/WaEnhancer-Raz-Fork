@@ -111,6 +111,16 @@ android {
         aidl = true
     }
 
+    // Exclude Xposed-specific sources from the app build (these require Xposed APIs).
+    // This lets the repository be used as a plain Android app template without Xposed.
+    sourceSets {
+        getByName("main") {
+            java {
+                exclude("com/wmods/wppenhacer/xposed/**")
+            }
+        }
+    }
+
 
     lint {
         disable += "SelectedPhotoAccess"
